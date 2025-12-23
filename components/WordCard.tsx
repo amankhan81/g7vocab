@@ -1,30 +1,15 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import { WordEntry } from '../types';
 
 interface WordCardProps {
   entry: WordEntry;
   unitId: number;
+  isPlaying: boolean;
+  onPlay: () => void;
 }
 
-const WordCard: React.FC<WordCardProps> = ({ entry, unitId }) => {
-  const [isPlaying, setIsPlaying] = useState(false);
-
-  const playAudio = () => {
-    // Expected format: ./unit5/01.mp3 or ./unit6/01.mp3
-    const audioPath = `./unit${unitId}/${entry.id}.mp3`;
-    const audio = new Audio(audioPath);
-    
-    setIsPlaying(true);
-    audio.play().catch(err => {
-      console.warn(`Audio file not found: ${audioPath}. Make sure audio files are placed in unit5/ and unit6/ folders.`);
-      alert(`Audio file missing: ${audioPath}\nPlease ensure audio files (01.mp3 to 20.mp3) are in the unit${unitId}/ directory.`);
-      setIsPlaying(false);
-    });
-    
-    audio.onended = () => setIsPlaying(false);
-  };
-
+const WordCard: React.FC<WordCardProps> = ({ entry, unitId, isPlaying, onPlay }) => {
   // Helper to highlight the keyword in the example sentence
   const renderExample = (text: string, keyword: string) => {
     const parts = text.split(new RegExp(`(${keyword})`, 'gi'));
@@ -60,13 +45,20 @@ const WordCard: React.FC<WordCardProps> = ({ entry, unitId }) => {
           </span>
         </div>
         <button 
-          onClick={playAudio}
+          onClick={onPlay}
           className={`p-2 rounded-full transition-all active:scale-95 ${isPlaying ? 'bg-indigo-100 text-indigo-600 animate-pulse' : 'bg-gray-50 text-gray-400 hover:bg-indigo-50 hover:text-indigo-500'}`}
-          title="Pronounce"
+          title={isPlaying ? "Stop" : "Pronounce"}
         >
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
-          </svg>
+          {isPlaying ? (
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 10a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4z" />
+            </svg>
+          ) : (
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+            </svg>
+          )}
         </button>
       </div>
 

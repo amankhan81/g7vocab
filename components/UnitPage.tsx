@@ -1,5 +1,5 @@
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { UnitData } from '../types';
 import WordCard from './WordCard';
@@ -9,9 +9,50 @@ interface UnitPageProps {
 }
 
 const UnitPage: React.FC<UnitPageProps> = ({ data }) => {
+  const [playingId, setPlayingId] = useState<string | null>(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
   useEffect(() => {
     window.scrollTo(0, 0);
+    // Cleanup audio on unmount
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
+    };
   }, []);
+
+  const handleToggleAudio = (wordId: string) => {
+    // If clicking the currently playing word, stop it
+    if (playingId === wordId && audioRef.current) {
+      audioRef.current.pause();
+      setPlayingId(null);
+      return;
+    }
+
+    // Stop existing audio if any
+    if (audioRef.current) {
+      audioRef.current.pause();
+    }
+
+    // New Format: u[unit_id][word_id].mp3
+    const audioPath = `./u${data.id}${wordId}.mp3`;
+    const newAudio = new Audio(audioPath);
+    
+    audioRef.current = newAudio;
+    setPlayingId(wordId);
+
+    newAudio.play().catch(err => {
+      console.warn(`Audio file not found: ${audioPath}`);
+      alert(`Audio file missing: ${audioPath}\nPlease ensure files like u${data.id}01.mp3 are in the correct folder.`);
+      setPlayingId(null);
+    });
+
+    newAudio.onended = () => {
+      setPlayingId(null);
+    };
+  };
 
   const accentColor = data.id === 5 ? 'rose' : 'indigo';
 
@@ -62,7 +103,13 @@ const UnitPage: React.FC<UnitPageProps> = ({ data }) => {
       <main className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {data.words.map((word) => (
-            <WordCard key={word.id} entry={word} unitId={data.id} />
+            <WordCard 
+              key={word.id} 
+              entry={word} 
+              unitId={data.id} 
+              isPlaying={playingId === word.id}
+              onPlay={() => handleToggleAudio(word.id)}
+            />
           ))}
         </div>
       </main>

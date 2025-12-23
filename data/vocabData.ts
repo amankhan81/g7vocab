@@ -7,143 +7,143 @@ export const UNIT_5_DATA: UnitData = {
   words: [
     {
       id: "01", word: "anecdote", emoji: "🗣️",
-      meaning: "A short and amusing or interesting story about a real incident or person.",
-      example: "The teacher shared a funny anecdote about her own school days.",
-      synonyms: ["story", "tale", "sketch", "vignette"],
+      meaning: "a short and interesting story",
+      example: "The teacher shared a funny anecdote from her childhood.",
+      synonyms: ["story", "tale"],
       antonyms: ["No direct antonym"]
     },
     {
       id: "02", word: "consolidate", emoji: "🧱",
-      meaning: "To make something stronger or more solid; to combine things into one.",
-      example: "The two small clubs decided to consolidate into one large organization.",
-      synonyms: ["combine", "unite", "strengthen", "merge"],
-      antonyms: ["separate", "scatter", "weaken"]
+      meaning: "to bring together or combine",
+      example: "The school decided to consolidate two classes.",
+      synonyms: ["combine", "unite"],
+      antonyms: ["separate", "divide"]
     },
     {
       id: "03", word: "counterfeit", emoji: "💸",
-      meaning: "A fraudulent imitation of something else; fake.",
-      example: "The shopkeeper realized the twenty-dollar bill was a counterfeit.",
-      synonyms: ["fake", "phony", "bogus", "imitation"],
-      antonyms: ["genuine", "authentic", "real"]
+      meaning: "fake or not real",
+      example: "The police found counterfeit money.",
+      synonyms: ["fake", "imitation"],
+      antonyms: ["genuine", "real"]
     },
     {
       id: "04", word: "docile", emoji: "🐑",
-      meaning: "Ready to accept control or instruction; submissive.",
-      example: "The once wild horse became quite docile after being trained.",
-      synonyms: ["obedient", "compliant", "gentle", "tame"],
-      antonyms: ["unruly", "rebellious", "wild"]
+      meaning: "easy to control or gentle",
+      example: "The docile dog followed its owner quietly.",
+      synonyms: ["gentle", "obedient"],
+      antonyms: ["wild", "stubborn"]
     },
     {
       id: "05", word: "dominate", emoji: "👑",
-      meaning: "To have a commanding influence on; exercise control over.",
-      example: "Our basketball team continues to dominate the regional league.",
-      synonyms: ["control", "govern", "rule", "command"],
-      antonyms: ["surrender", "obey", "submit"]
+      meaning: "to control or rule",
+      example: "The stronger team dominated the match.",
+      synonyms: ["control", "rule"],
+      antonyms: ["obey", "submit"]
     },
     {
       id: "06", word: "entreat", emoji: "🙏",
-      meaning: "To ask someone earnestly or anxiously to do something.",
-      example: "The students began to entreat the principal for an extra recess.",
-      synonyms: ["beg", "implore", "plead", "beseech"],
-      antonyms: ["demand", "command"]
+      meaning: "to beg or ask seriously",
+      example: "She entreated her parents to let her go.",
+      synonyms: ["beg", "plead"],
+      antonyms: ["demand", "refuse"]
     },
     {
       id: "07", word: "fallible", emoji: "⚠️",
-      meaning: "Capable of making mistakes or being erroneous.",
-      example: "Even the smartest scientists are fallible and can make errors.",
-      synonyms: ["imperfect", "errant", "flawed"],
-      antonyms: ["infallible", "perfect", "flawless"]
+      meaning: "capable of making mistakes",
+      example: "All humans are fallible.",
+      synonyms: ["imperfect", "mistaken"],
+      antonyms: ["perfect", "flawless"]
     },
     {
       id: "08", word: "fickle", emoji: "☁️",
-      meaning: "Changing frequently, especially as regards one's loyalties or interests.",
-      example: "The fickle weather changed from sunny to rainy in minutes.",
-      synonyms: ["unpredictable", "changeable", "inconstant"],
-      antonyms: ["constant", "steady", "reliable"]
+      meaning: "changing opinions often",
+      example: "The weather here is fickle.",
+      synonyms: ["changeable", "unpredictable"],
+      antonyms: ["loyal", "steady"]
     },
     {
       id: "09", word: "fugitive", emoji: "🏃",
-      meaning: "A person who has escaped from captivity or is in hiding.",
-      example: "The fugitive was eventually caught by the police in the woods.",
-      synonyms: ["runaway", "escapee", "refugee"],
+      meaning: "a person who is running away",
+      example: "The police searched for the fugitive.",
+      synonyms: ["runaway", "escapee"],
       antonyms: ["captive", "prisoner"]
     },
     {
       id: "10", word: "grimy", emoji: "🧼",
-      meaning: "Covered with or characterized by ingrained dirt or soot.",
-      example: "His face was grimy after spending all day working in the garden.",
-      synonyms: ["dirty", "filthy", "soiled", "muddy"],
-      antonyms: ["clean", "spotless", "pure"]
+      meaning: "dirty or covered with dirt",
+      example: "His hands were grimy after playing outside.",
+      synonyms: ["dirty", "filthy"],
+      antonyms: ["clean", "spotless"]
     },
     {
       id: "11", word: "iota", emoji: "🔬",
-      meaning: "An extremely small amount.",
-      example: "There wasn't an iota of truth in the gossip we heard.",
-      synonyms: ["bit", "speck", "smidgen", "jot"],
-      antonyms: ["flood", "mountain", "abundance"]
+      meaning: "a very small amount",
+      example: "There wasn’t an iota of truth in the rumor.",
+      synonyms: ["bit", "speck"],
+      antonyms: ["lot", "plenty"]
     },
     {
       id: "12", word: "maul", emoji: "🐾",
-      meaning: "To wound by scratching and tearing.",
-      example: "The hungry bear might maul anything that gets too close.",
-      synonyms: ["mangle", "batter", "bruise", "mistreat"],
-      antonyms: ["No direct antonym"]
+      meaning: "to attack roughly",
+      example: "The dog mauled the pillow while playing.",
+      synonyms: ["attack", "tear"],
+      antonyms: ["protect", "guard"]
     },
     {
       id: "13", word: "potential", emoji: "🔋",
-      meaning: "Having or showing the capacity to become or develop into something in the future.",
-      example: "The young artist has the potential to become very famous.",
-      synonyms: ["possibility", "capability", "prospect"],
-      antonyms: ["impossibility", "incapacity"]
+      meaning: "possible ability or chance",
+      example: "She has the potential to become a leader.",
+      synonyms: ["ability", "possibility"],
+      antonyms: ["impossibility", "weakness"]
     },
     {
       id: "14", word: "radiant", emoji: "☀️",
-      meaning: "Sending out light; shining or glowing brightly.",
-      example: "The bride looked radiant as she walked down the aisle.",
-      synonyms: ["glowing", "beaming", "shining", "brilliant"],
-      antonyms: ["dull", "dim", "dark"]
+      meaning: "shining or full of joy",
+      example: "Her face looked radiant after winning.",
+      synonyms: ["glowing", "bright"],
+      antonyms: ["dull", "gloomy"]
     },
     {
       id: "15", word: "rural", emoji: "🚜",
-      meaning: "Relating to, or characteristic of the countryside.",
-      example: "Life in a rural area is much quieter than living in a city.",
-      synonyms: ["country", "rustic", "pastoral"],
-      antonyms: ["urban", "metropolitan", "city"]
+      meaning: "relating to the countryside",
+      example: "He lives in a rural village.",
+      synonyms: ["countryside", "farming"],
+      antonyms: ["urban", "city"]
     },
     {
       id: "16", word: "substantial", emoji: "🏗️",
-      meaning: "Of considerable importance, size, or worth.",
-      example: "A substantial amount of money was raised for the new library.",
-      synonyms: ["considerable", "significant", "large", "solid"],
-      antonyms: ["minor", "insignificant", "slight"]
+      meaning: "large or important",
+      example: "The project needs a substantial effort.",
+      synonyms: ["large", "significant"],
+      antonyms: ["small", "minor"]
     },
     {
       id: "17", word: "tactful", emoji: "🤝",
-      meaning: "Showing skill and sensitivity in dealing with others or difficult issues.",
-      example: "A tactful person knows how to give advice without hurting feelings.",
-      synonyms: ["diplomatic", "polite", "sensitive", "discreet"],
-      antonyms: ["rude", "clumsy", "tactless"]
+      meaning: "careful not to hurt others’ feelings",
+      example: "She gave tactful advice to her friend.",
+      synonyms: ["polite", "considerate"],
+      antonyms: ["rude", "blunt"]
     },
     {
       id: "18", word: "tamper", emoji: "🔧",
-      meaning: "Interfere with something in order to cause damage or make unauthorized alterations.",
-      example: "It is a crime to tamper with the mail belonging to others.",
-      synonyms: ["meddle", "tinker", "interfere"],
-      antonyms: ["No direct antonym"]
+      meaning: "to interfere in a harmful way",
+      example: "Do not tamper with school equipment.",
+      synonyms: ["interfere", "meddle"],
+      antonyms: ["protect", "preserve"]
     },
     {
       id: "19", word: "ultimate", emoji: "🏆",
-      meaning: "Being or happening at the end of a process; final.",
-      example: "Winning the championship was the ultimate goal for the season.",
-      synonyms: ["final", "last", "eventual", "supreme"],
-      antonyms: ["first", "initial", "beginning"]
+      meaning: "final or most important",
+      example: "His ultimate goal is success.",
+      synonyms: ["final", "main"],
+      antonyms: ["first", "initial"]
     },
     {
       id: "20", word: "uncertainty", emoji: "❓",
-      meaning: "The state of being unsure or having doubt.",
-      example: "There is still some uncertainty about when the new movie will release.",
-      synonyms: ["doubt", "hesitation", "unreliability"],
-      antonyms: ["certainty", "confidence", "assurance"]
+      meaning: "doubt or not being sure",
+      example: "There was uncertainty about the exam date.",
+      synonyms: ["doubt", "confusion"],
+      antonyms: ["certainty", "confidence"]
     }
   ]
 };
@@ -154,143 +154,143 @@ export const UNIT_6_DATA: UnitData = {
   words: [
     {
       id: "01", word: "anonymous", emoji: "🎭",
-      meaning: "Not identified by name; of unknown authorship.",
-      example: "The library received an anonymous donation of one thousand dollars.",
-      synonyms: ["unnamed", "unknown", "unidentified"],
-      antonyms: ["known", "identified", "named"]
+      meaning: "without a known name",
+      example: "The letter was sent by an anonymous writer.",
+      synonyms: ["unnamed", "unknown"],
+      antonyms: ["known", "identified"]
     },
     {
       id: "02", word: "browse", emoji: "📖",
-      meaning: "Survey goods or text in a leisurely way.",
-      example: "I love to browse through the books at the local bookstore.",
-      synonyms: ["skim", "scan", "look through"],
-      antonyms: ["pore over", "scrutinize"]
+      meaning: "to look through casually",
+      example: "She likes to browse books in the library.",
+      synonyms: ["look through", "skim"],
+      antonyms: ["study", "examine"]
     },
     {
       id: "03", word: "dupe", emoji: "🤡",
-      meaning: "To deceive or trick someone.",
-      example: "The thief tried to dupe the tourists with a fake map.",
-      synonyms: ["trick", "hoodwink", "mislead", "cheat"],
-      antonyms: ["undeceive", "disabuse"]
+      meaning: "to trick or fool",
+      example: "He was duped into believing the lie.",
+      synonyms: ["trick", "deceive"],
+      antonyms: ["inform", "enlighten"]
     },
     {
       id: "04", word: "dynamic", emoji: "⚡",
-      meaning: "Characterized by constant change, activity, or progress.",
-      example: "The city has a dynamic atmosphere with something new happening daily.",
-      synonyms: ["energetic", "active", "lively", "vigorous"],
-      antonyms: ["static", "lethargic", "sluggish"]
+      meaning: "full of energy and activity",
+      example: "The coach is very dynamic and motivating.",
+      synonyms: ["energetic", "active"],
+      antonyms: ["lazy", "dull"]
     },
     {
       id: "05", word: "eradicate", emoji: "🧹",
-      meaning: "Destroy completely; put an end to.",
-      example: "Doctors are working hard to eradicate the flu virus completely.",
-      synonyms: ["eliminate", "destroy", "wipe out", "uproot"],
-      antonyms: ["create", "promote", "foster"]
+      meaning: "to remove completely",
+      example: "The program helped eradicate the disease.",
+      synonyms: ["remove", "destroy"],
+      antonyms: ["create", "spread"]
     },
     {
       id: "06", word: "frustrate", emoji: "😤",
-      meaning: "Prevent a plan or attempted action from progressing or succeeding.",
-      example: "The heavy rain helped frustrate our plans for a picnic.",
-      synonyms: ["thwart", "foil", "baffle", "block"],
-      antonyms: ["assist", "encourage", "help"]
+      meaning: "to make someone feel upset or annoyed",
+      example: "The broken printer began to frustrate students.",
+      synonyms: ["annoy", "upset"],
+      antonyms: ["please", "satisfy"]
     },
     {
       id: "07", word: "grim", emoji: "🌑",
-      meaning: "Forbidding or uninviting; depressing or worrying to consider.",
-      example: "The news about the storm looked quite grim for the coastal town.",
-      synonyms: ["stern", "gloomy", "harsh", "dreadful"],
-      antonyms: ["cheerful", "mild", "bright"]
+      meaning: "serious or unpleasant",
+      example: "The news about the storm was grim.",
+      synonyms: ["serious", "harsh"],
+      antonyms: ["cheerful", "pleasant"]
     },
     {
       id: "08", word: "inimitable", emoji: "💎",
-      meaning: "So good or unusual as to be impossible to copy; unique.",
-      example: "The singer performed with an inimitable style that no one could copy.",
-      synonyms: ["unique", "matchless", "unrivaled"],
-      antonyms: ["imitable", "common", "ordinary"]
+      meaning: "impossible to copy",
+      example: "Her singing style is inimitable.",
+      synonyms: ["unique", "unmatched"],
+      antonyms: ["ordinary", "common"]
     },
     {
       id: "09", word: "makeshift", emoji: "🪵",
-      meaning: "Serving as a temporary substitute; sufficient for the time being.",
-      example: "We used a large box as a makeshift table while we were camping.",
-      synonyms: ["temporary", "stopgap", "provisional"],
-      antonyms: ["permanent", "durable", "solid"]
+      meaning: "temporary and not perfect",
+      example: "They used a makeshift table during the event.",
+      synonyms: ["temporary", "improvised"],
+      antonyms: ["permanent", "proper"]
     },
     {
       id: "10", word: "marginal", emoji: "📐",
-      meaning: "Relating to or at the edge or margin; minor and not important.",
-      example: "The difference between the two products was only marginal.",
-      synonyms: ["slight", "minor", "borderline", "minimal"],
-      antonyms: ["central", "major", "essential"]
+      meaning: "small or not very important",
+      example: "The team won by a marginal difference.",
+      synonyms: ["slight", "minor"],
+      antonyms: ["major", "significant"]
     },
     {
       id: "11", word: "pending", emoji: "⏳",
-      meaning: "Waiting to be settled or decided.",
-      example: "The decision on our field trip is still pending until next week.",
-      synonyms: ["undecided", "unsettled", "upcoming"],
-      antonyms: ["decided", "settled", "finished"]
+      meaning: "waiting to be decided",
+      example: "The result is still pending.",
+      synonyms: ["waiting", "undecided"],
+      antonyms: ["decided", "finished"]
     },
     {
       id: "12", word: "prescribe", emoji: "💊",
-      meaning: "Advise and authorize the use of a medicine or treatment.",
-      example: "The doctor will prescribe some medicine to help your cough.",
-      synonyms: ["order", "appoint", "recommend"],
-      antonyms: ["No direct antonym"]
+      meaning: "to order or recommend medicine",
+      example: "The doctor prescribed rest and medicine.",
+      synonyms: ["recommend", "order"],
+      antonyms: ["forbid", "cancel"]
     },
     {
       id: "13", word: "preview", emoji: "🎥",
-      meaning: "An inspection or viewing of something before it is bought or becomes available.",
-      example: "The movie studio released a preview of the upcoming action film.",
-      synonyms: ["sneak peek", "foretaste", "view"],
-      antonyms: ["No direct antonym"]
+      meaning: "to see something before it happens",
+      example: "We watched a preview of the movie.",
+      synonyms: ["glimpse", "preview"],
+      antonyms: ["review", "recap"]
     },
     {
       id: "14", word: "prominent", emoji: "🏔️",
-      meaning: "Important; famous; sticking out so as to be easily seen.",
-      example: "The tall lighthouse is a prominent feature of the coastline.",
-      synonyms: ["noticeable", "famous", "conspicuous", "leading"],
-      antonyms: ["obscure", "unknown", "unnoticeable"]
+      meaning: "easily noticed or important",
+      example: "He is a prominent member of the team.",
+      synonyms: ["noticeable", "important"],
+      antonyms: ["unimportant", "hidden"]
     },
     {
       id: "15", word: "quaint", emoji: "🏘️",
-      meaning: "Attractively unusual or old-fashioned.",
-      example: "We stayed in a quaint little cottage in the English countryside.",
-      synonyms: ["charming", "picturesque", "old-timey"],
-      antonyms: ["modern", "contemporary", "ordinary"]
+      meaning: "attractively old-fashioned",
+      example: "The village has quaint houses.",
+      synonyms: ["charming", "old-fashioned"],
+      antonyms: ["modern", "plain"]
     },
     {
       id: "16", word: "reluctant", emoji: "🐢",
-      meaning: "Unwilling and hesitant; disinclined.",
-      example: "The child was reluctant to go to bed early on a Friday night.",
-      synonyms: ["unwilling", "hesitant", "loath"],
-      antonyms: ["willing", "eager", "ready"]
+      meaning: "unwilling or hesitant",
+      example: "She was reluctant to speak in public.",
+      synonyms: ["hesitant", "unwilling"],
+      antonyms: ["eager", "willing"]
     },
     {
       id: "17", word: "scrimp", emoji: "💰",
-      meaning: "Be thrifty or parsimonious; economize.",
-      example: "We had to scrimp and save for months to afford the vacation.",
-      synonyms: ["save", "stint", "economize"],
-      antonyms: ["waste", "spend", "squander"]
+      meaning: "to save money by spending very little",
+      example: "He scrimped to buy a new bicycle.",
+      synonyms: ["save", "economize"],
+      antonyms: ["waste", "spend freely"]
     },
     {
       id: "18", word: "snare", emoji: "🕸️",
-      meaning: "A trap for catching birds or animals; to catch in a trap.",
-      example: "The hunter set a snare in the bushes to catch a rabbit.",
-      synonyms: ["trap", "net", "catch", "entrap"],
-      antonyms: ["liberate", "release", "free"]
+      meaning: "a trap",
+      example: "The hunter set a snare in the forest.",
+      synonyms: ["trap", "net"],
+      antonyms: ["release", "free"]
     },
     {
       id: "19", word: "utmost", emoji: "🌋",
-      meaning: "Most extreme; greatest.",
-      example: "The safety of the students is of the utmost importance to us.",
-      synonyms: ["greatest", "maximum", "highest", "best"],
-      antonyms: ["least", "minimal"]
+      meaning: "greatest or highest",
+      example: "She tried her utmost to succeed.",
+      synonyms: ["greatest", "maximum"],
+      antonyms: ["least", "minimum"]
     },
     {
       id: "20", word: "vengeance", emoji: "⚔️",
-      meaning: "Punishment inflicted or retribution exacted for an injury or wrong.",
-      example: "The hero sought vengeance against the villain for his evil deeds.",
-      synonyms: ["revenge", "retaliation", "payback"],
-      antonyms: ["forgiveness", "pardon"]
+      meaning: "revenge for a wrong done",
+      example: "He wanted vengeance after being treated unfairly.",
+      synonyms: ["revenge", "payback"],
+      antonyms: ["forgiveness", "mercy"]
     }
   ]
 };
